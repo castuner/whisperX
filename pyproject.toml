@@ -20,5 +20,7 @@ dependencies = [
 whisperx = "whisperx.transcribe:cli"
 
 [tool.uv]
-
 package = true
+
+[tool.setuptools]
+include-package-data = true
